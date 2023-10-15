@@ -4,11 +4,16 @@
   "description": "",
   "main": "alternative-flavor.js",
   "scripts": {
+    "start": "node modules.js",
+    "dev": "nodemon modules.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "loadash": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
   }
 }
